@@ -1,0 +1,39 @@
+.one{
+    color: red;
+}
+.two{
+    color: orange;
+}
+.three{
+    color: green
+    
+;
+
+}
+.three h1 {
+    border: 3px dotted purple;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+body {
+    background-color: aqua;
+}
+.three p{
+    margin-top: 4%;
+    border: 3px dotted violet;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding: 50px 100px 150px 200px;
+}
+.zero{
+    display: flex;
+    justify-content:space-between;
+    /* align-items: center; */
+    border: 3px dotted purple;
+    border-bottom: 1px solid rgba(219,219,219,1);
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
