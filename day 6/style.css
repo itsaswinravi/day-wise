@@ -1,0 +1,60 @@
+ .logo{
+    height: 69px;
+    border: 20px solid violet;
+}
+
+ .logo img{
+     height: 50%;
+    /* this will make the image take the full height of the parent element */
+    object-fit: cover;
+    /* this will make the image fit inside the parent element */
+    /* for more info visit https://www.w3schools.com/css/css3_object-fit.asp */
+     /* if we  use object-fit:cover; the image will cover the parent element 
+      
+      
+     */
+      border:10px
+      solid orange ;
+}
+.search-box{
+    width: 250px;
+    background-color: rgba(239,239,239,1);
+
+    padding : 3px 16px;
+    /* this will add padding to the search box , 3px from the top and bottom and 16px from the left and right */
+    display: flex;
+    /* this will make the search box a flex container , so that we can use the flex properties,
+    to align the items inside the search box */
+    align-items: center;
+    /* this will align the items inside the search box vertically */
+    border-radius: 8px;
+}
+img {
+    border-radius: 30px;
+}
+ .search-box input{
+    height: 30px;
+       /* this will add height to the input field */
+       border: none;
+       /* this will remove the default border from the input field */
+       outline: none;
+       /* this will remove the default outline from the input field 
+       for more info visit https://www.w3schools.com/css/css_outline.asp */
+       
+       background-color: rgba(239,239,239,1);
+       /* this will add a background color to the input field */
+       padding-left: 10px;
+       /* this will add padding to the input field from the left */
+       font-size: 15px;
+       /* this will add font size to the input field */
+       color: #8e8e8e;
+       /* this will add color to the input field */
+   }
+    nav ul{
+    list-style: none;
+    /* this will remove the bullet points from the list */
+
+    /* display: flex; */
+    /* this will make the list a flex container , so that we can use the flex properties
+    to align the items inside the list */
+}
